@@ -4,7 +4,7 @@
 #
 Name     : azure-keyvault-secrets
 Version  : 4.1.0
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/0e/a1/02fd621bf5f23463d23d9e8d563f85137cac6d07bccdea43e0474c938c44/azure-keyvault-secrets-4.1.0.zip
 Source0  : https://files.pythonhosted.org/packages/0e/a1/02fd621bf5f23463d23d9e8d563f85137cac6d07bccdea43e0474c938c44/azure-keyvault-secrets-4.1.0.zip
 Summary  : Microsoft Azure Key Vault Secrets Client Library for Python
@@ -12,7 +12,9 @@ Group    : Development/Tools
 License  : MIT
 Requires: azure-keyvault-secrets-python = %{version}-%{release}
 Requires: azure-keyvault-secrets-python3 = %{version}-%{release}
+Requires: azure-core
 Requires: msrest
+BuildRequires : azure-core
 BuildRequires : buildreq-distutils3
 BuildRequires : msrest
 
@@ -59,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1588698949
+export SOURCE_DATE_EPOCH=1591206986
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
