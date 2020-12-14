@@ -4,7 +4,7 @@
 #
 Name     : azure-keyvault-secrets
 Version  : 4.1.0
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/0e/a1/02fd621bf5f23463d23d9e8d563f85137cac6d07bccdea43e0474c938c44/azure-keyvault-secrets-4.1.0.zip
 Source0  : https://files.pythonhosted.org/packages/0e/a1/02fd621bf5f23463d23d9e8d563f85137cac6d07bccdea43e0474c938c44/azure-keyvault-secrets-4.1.0.zip
 Summary  : Microsoft Azure Key Vault Secrets Client Library for Python
